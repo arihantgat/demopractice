@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.DragandDropTest">
+      <class name="test.AutoCompleteTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="dragAintoB"/>
+          <include name="selectValue"/>
         </methods>
-      </class> <!-- test.DragandDropTest -->
+      </class> <!-- test.AutoCompleteTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

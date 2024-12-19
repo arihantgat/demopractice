@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-19T12:21:54 IST" name="Default suite" finished-at="2024-12-19T12:21:59 IST" duration-ms="5331">
+  <suite started-at="2024-12-19T21:08:18 IST" name="Default suite" finished-at="2024-12-19T21:08:23 IST" duration-ms="5058">
     <groups>
     </groups>
-    <test started-at="2024-12-19T12:21:54 IST" name="Default test" finished-at="2024-12-19T12:21:59 IST" duration-ms="5331">
-      <class name="test.DragandDropTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.DragandDropTest@bcec361]" started-at="2024-12-19T12:21:54 IST" name="setUp" finished-at="2024-12-19T12:21:58 IST" duration-ms="4608" status="PASS">
+    <test started-at="2024-12-19T21:08:18 IST" name="Default test" finished-at="2024-12-19T21:08:23 IST" duration-ms="5058">
+      <class name="test.KeyPressTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.KeyPressTest@26794848]" started-at="2024-12-19T21:08:18 IST" name="setUp" finished-at="2024-12-19T21:08:20 IST" duration-ms="2276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="dragAintoB()[pri:0, instance:test.DragandDropTest@bcec361]" started-at="2024-12-19T12:21:58 IST" name="dragAintoB" finished-at="2024-12-19T12:21:59 IST" duration-ms="351" status="PASS">
+        <test-method signature="keypress()[pri:0, instance:test.KeyPressTest@26794848]" started-at="2024-12-19T21:08:20 IST" name="keypress" finished-at="2024-12-19T21:08:22 IST" duration-ms="2519" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dragAintoB -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.DragandDropTest@bcec361]" started-at="2024-12-19T12:21:59 IST" name="tearDown" finished-at="2024-12-19T12:21:59 IST" duration-ms="327" status="PASS">
+        </test-method> <!-- keypress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.KeyPressTest@26794848]" started-at="2024-12-19T21:08:22 IST" name="tearDown" finished-at="2024-12-19T21:08:23 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.DragandDropTest -->
+      </class> <!-- test.KeyPressTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
