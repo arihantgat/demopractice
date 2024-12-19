@@ -62,7 +62,4 @@ public class LoginPage {
 		return driver.getCurrentUrl().equals("https://practice.expandtesting.com/secure");
 	}
 
-
-
-
 }

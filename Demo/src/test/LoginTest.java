@@ -18,7 +18,7 @@ public class LoginTest {
 	
 	@BeforeClass
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ragnar\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ragnar\\Documents\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
 		// Initialize the LoginPage object
@@ -34,7 +34,7 @@ public class LoginTest {
 	}
 	
 	@Test(priority = 2)
-	public void testInvalidValidLogin() throws InterruptedException {
+	public void testInvalidLogin() throws InterruptedException {
 		loginpage.loginInvalidCredentials("username", "password");
 		Assert.assertEquals(driver.findElement(By.xpath("//div[@id='flash']")).getText(), "Your username is invalid!");
 		System.out.println(driver.findElement(By.xpath("//div[@id='flash']")).getText());
