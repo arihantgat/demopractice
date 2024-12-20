@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-19T21:08:18 IST" name="Default suite" finished-at="2024-12-19T21:08:23 IST" duration-ms="5058">
+  <suite started-at="2024-12-20T14:23:36 IST" name="Default suite" finished-at="2024-12-20T14:23:47 IST" duration-ms="11191">
     <groups>
     </groups>
-    <test started-at="2024-12-19T21:08:18 IST" name="Default test" finished-at="2024-12-19T21:08:23 IST" duration-ms="5058">
-      <class name="test.KeyPressTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.KeyPressTest@26794848]" started-at="2024-12-19T21:08:18 IST" name="setUp" finished-at="2024-12-19T21:08:20 IST" duration-ms="2276" status="PASS">
+    <test started-at="2024-12-20T14:23:36 IST" name="Default test" finished-at="2024-12-20T14:23:47 IST" duration-ms="11191">
+      <class name="test.DynamicElementTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.DynamicElementTest@26794848]" started-at="2024-12-20T14:23:36 IST" name="setUp" finished-at="2024-12-20T14:23:41 IST" duration-ms="5327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="keypress()[pri:0, instance:test.KeyPressTest@26794848]" started-at="2024-12-19T21:08:20 IST" name="keypress" finished-at="2024-12-19T21:08:22 IST" duration-ms="2519" status="PASS">
+        <test-method signature="elementadded()[pri:0, instance:test.DynamicElementTest@26794848]" started-at="2024-12-20T14:23:41 IST" name="elementadded" finished-at="2024-12-20T14:23:47 IST" duration-ms="5446" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- keypress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.KeyPressTest@26794848]" started-at="2024-12-19T21:08:22 IST" name="tearDown" finished-at="2024-12-19T21:08:23 IST" duration-ms="216" status="PASS">
+        </test-method> <!-- elementadded -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.DynamicElementTest@26794848]" started-at="2024-12-20T14:23:47 IST" name="tearDown" finished-at="2024-12-20T14:23:47 IST" duration-ms="381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.KeyPressTest -->
+      </class> <!-- test.DynamicElementTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
