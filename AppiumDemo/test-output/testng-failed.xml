@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.ScrollBarsTest">
+      <class name="restassured.DynamicJSON">
         <methods>
-          <include name="ClickButton"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="deleteBooks" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- test.ScrollBarsTest -->
+      </class> <!-- restassured.DynamicJSON -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

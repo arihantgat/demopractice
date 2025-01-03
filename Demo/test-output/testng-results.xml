@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-20T14:23:36 IST" name="Default suite" finished-at="2024-12-20T14:23:47 IST" duration-ms="11191">
+  <suite started-at="2024-12-20T14:46:55 IST" name="Default suite" finished-at="2024-12-20T14:47:01 IST" duration-ms="6244">
     <groups>
     </groups>
-    <test started-at="2024-12-20T14:23:36 IST" name="Default test" finished-at="2024-12-20T14:23:47 IST" duration-ms="11191">
-      <class name="test.DynamicElementTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.DynamicElementTest@26794848]" started-at="2024-12-20T14:23:36 IST" name="setUp" finished-at="2024-12-20T14:23:41 IST" duration-ms="5327" status="PASS">
+    <test started-at="2024-12-20T14:46:55 IST" name="Default test" finished-at="2024-12-20T14:47:01 IST" duration-ms="6244">
+      <class name="test.ScrollBarsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ScrollBarsTest@bcec361]" started-at="2024-12-20T14:46:55 IST" name="setUp" finished-at="2024-12-20T14:47:01 IST" duration-ms="5813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="elementadded()[pri:0, instance:test.DynamicElementTest@26794848]" started-at="2024-12-20T14:23:41 IST" name="elementadded" finished-at="2024-12-20T14:23:47 IST" duration-ms="5446" status="PASS">
+        <test-method signature="ClickButton()[pri:0, instance:test.ScrollBarsTest@bcec361]" started-at="2024-12-20T14:47:01 IST" name="ClickButton" finished-at="2024-12-20T14:47:01 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- elementadded -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.DynamicElementTest@26794848]" started-at="2024-12-20T14:23:47 IST" name="tearDown" finished-at="2024-12-20T14:23:47 IST" duration-ms="381" status="PASS">
+        </test-method> <!-- ClickButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ScrollBarsTest@bcec361]" started-at="2024-12-20T14:47:01 IST" name="tearDown" finished-at="2024-12-20T14:47:01 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.DynamicElementTest -->
+      </class> <!-- test.ScrollBarsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

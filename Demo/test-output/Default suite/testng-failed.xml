@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.DynamicElementTest">
+      <class name="test.ScrollBarsTest">
         <methods>
+          <include name="ClickButton"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="selectValue"/>
         </methods>
-      </class> <!-- test.DynamicElementTest -->
+      </class> <!-- test.ScrollBarsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
